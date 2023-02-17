@@ -1,7 +1,7 @@
 # Audit Data Menggunakan JPA & Hibernate
 
 - Reload project
-    mvn clean install -Dskiptests=true
+    >  mvn clean install -Dskiptests=true
 - Check image docker
     >  docker ps
 - jalankan aplikasi
