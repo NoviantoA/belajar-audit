@@ -3,7 +3,7 @@
 - Reload project
     mvn clean install -Dskiptests=true
 - Check image docker
-    docker ps
+    <sup>docker ps </sup>
 - jalankan aplikasi
     docker-compose up
 - hapus image
