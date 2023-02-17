@@ -3,12 +3,12 @@
 - Reload project
     mvn clean install -Dskiptests=true
 - Check image docker
-    <sup>docker ps </sup>
+    >  docker ps
 - jalankan aplikasi
-    docker-compose up
+    >  docker-compose up
 - hapus image
-    docker rm $(docker ps -a -q)
+    >  docker rm $(docker ps -a -q)
 - check database
-    docker exec -it {idImage} psql -U postgres employeedb
+    >  docker exec -it {idImage} psql -U postgres employeedb
 
 jika terjadi error coba ganti ke jdk17
